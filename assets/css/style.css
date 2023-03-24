@@ -4,20 +4,21 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Amita', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 nav ul {
-    list-style: none;
+
     background-color: #46413B;
     padding: 0;
     margin: 0;
+    text-align: center;
 }
 
 nav li {
-    font-size: 1.2em;
-    line-height: 40px;
-    height: 40px;
+    font-size: 100%;
+    line-height: 30px;
+    height: 45px;
     display: inline-block;
     margin-left: 2.5%;
 }
@@ -33,15 +34,8 @@ nav a:hover {
     color: #46413B;
 }
 
-.left {
-    text-align: left;
+h1 {
+    font-family: 'Amita', sans-serif;
+    font-size: 40px;
 }
 
-.center {
-    float: inherit;
-    text-align: center;
-}
-
-.right {
-    text-align: right;
-}
